@@ -9,10 +9,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC_RF_005_1 {
+public class TC_RF_006_1 {
 
 	@Test
-	public void verifyRegisterAccountBySelecting_Yes_option() {
+	public void verifyRegisterAccountBySelecting_No_option() {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
@@ -31,14 +31,14 @@ public class TC_RF_005_1 {
 		driver.findElement(By.id("input-password")).sendKeys("Sutar@123");
 		driver.findElement(By.id("input-confirm")).sendKeys("Sutar@123");
 		//driver.findElement(By.xpath("//label[normalize-space()='No']")).click();
-		driver.findElement(By.xpath("//input[@name='newsletter'][@value='1']")).click();
+		driver.findElement(By.xpath("//input[@name='newsletter'][@value='0']")).click();
 		driver.findElement(By.name("agree")).click();
 		driver.findElement(By.xpath("//input[@value='Continue']")).click();
 		driver.findElement(By.linkText("Continue")).click();
 		driver.findElement(By.linkText("Subscribe / unsubscribe to newsletter")).click();
 		
 		Assert.assertTrue(driver.findElement(By.xpath("//ul[@class='breadcrumb']//a[text()='Newsletter']")).isDisplayed());
-		Assert.assertTrue(driver.findElement(By.xpath("//input[@name='newsletter'][@value='1']")).isSelected());
+		Assert.assertTrue(driver.findElement(By.xpath("//input[@name='newsletter'][@value='0']")).isSelected());
 		
 		driver.quit();
 	}
