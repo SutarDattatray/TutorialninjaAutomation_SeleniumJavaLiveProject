@@ -59,6 +59,7 @@ public class TC_RF_001 {
 		
 		driver.quit();
 	}
+
 	@Test
 	public String generateNewEmail() {
 		return new Date().toString().replaceAll("\\s", "").replaceAll("\\:", "")+"@gmail.com";
