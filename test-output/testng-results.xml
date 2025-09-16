@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-16T14:31:29 IST" name="Default suite" finished-at="2025-09-16T14:31:51 IST" duration-ms="22774">
+  <suite started-at="2025-09-16T14:58:34 IST" name="Default suite" finished-at="2025-09-16T14:58:38 IST" duration-ms="4407">
     <groups>
     </groups>
-    <test started-at="2025-09-16T14:31:29 IST" name="Default test" finished-at="2025-09-16T14:31:51 IST" duration-ms="22774">
-      <class name="tutorialninja.register.TC_RF_012">
-        <test-method signature="verifyRegisterAccountUsingTabKey()[pri:0, instance:tutorialninja.register.TC_RF_012@235834f2]" started-at="2025-09-16T14:31:29 IST" name="verifyRegisterAccountUsingTabKey" finished-at="2025-09-16T14:31:51 IST" duration-ms="22725" status="PASS">
+    <test started-at="2025-09-16T14:58:34 IST" name="Default test" finished-at="2025-09-16T14:58:38 IST" duration-ms="4407">
+      <class name="tutorialninja.register.TC_RF_013">
+        <test-method signature="verifyPlaceHolderOfTextFieldsInregisterAccountPage()[pri:0, instance:tutorialninja.register.TC_RF_013@235834f2]" started-at="2025-09-16T14:58:34 IST" name="verifyPlaceHolderOfTextFieldsInregisterAccountPage" finished-at="2025-09-16T14:58:38 IST" duration-ms="4353" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisterAccountUsingTabKey -->
-      </class> <!-- tutorialninja.register.TC_RF_012 -->
+        </test-method> <!-- verifyPlaceHolderOfTextFieldsInregisterAccountPage -->
+      </class> <!-- tutorialninja.register.TC_RF_013 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
