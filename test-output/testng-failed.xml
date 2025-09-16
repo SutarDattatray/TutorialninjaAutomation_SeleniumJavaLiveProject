@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tutorialninja.register.TC_RF_013">
+      <class name="tutorialninja.register.TC_RF_014">
         <methods>
-          <include name="verifyPlaceHolderOfTextFieldsInregisterAccountPage"/>
+          <include name="verifymandatoryFieldsSymbolAndColorInRegisterAccountPage"/>
         </methods>
-      </class> <!-- tutorialninja.register.TC_RF_013 -->
+      </class> <!-- tutorialninja.register.TC_RF_014 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
