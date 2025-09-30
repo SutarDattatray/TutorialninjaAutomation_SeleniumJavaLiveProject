@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class TC_RF_013 {
 @Test
-	public void verifyPlaceHolderOfTextFieldsInregisterAccountPage() {
+	public void verifyPlaceHolderOfTextFieldsInRegisterAccountPage() {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

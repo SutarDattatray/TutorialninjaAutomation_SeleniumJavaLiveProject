@@ -18,7 +18,7 @@ public class TC_RF_011 {
 	}
 	
 	@Test
-	public void verifyRegisterAccountWithInvalidPgoneNumber() {
+	public void verifyRegisterAccountWithInvalidPhoneNumber() {
 
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

@@ -20,6 +20,7 @@ public class TC_RF_007 {
 		
 		//Verify navigating on register page
 		driver.findElement(By.xpath("//span[normalize-space()='My Account']")).click();
+		
 		//1)By clicking  on register
 		driver.findElement(By.linkText("Register")).click();
 		Assert.assertTrue(driver.findElement(By.xpath("//ul[@class='breadcrumb']//a[text()='Register']")).isDisplayed());

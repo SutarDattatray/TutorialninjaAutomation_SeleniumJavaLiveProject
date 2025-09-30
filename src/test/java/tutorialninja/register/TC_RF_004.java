@@ -43,8 +43,7 @@ public class TC_RF_004 {
 		Assert.assertEquals(
 				driver.findElement(By.xpath("//input[@id='input-email']/following-sibling::div")).getText(),
 				expectedEmailWarning);
-
-		Assert.assertEquals(
+        Assert.assertEquals(
 				driver.findElement(By.xpath("//input[@id='input-telephone']/following-sibling::div")).getText(),
 				expectedTelephone);
 
